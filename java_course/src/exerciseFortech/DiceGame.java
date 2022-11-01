@@ -47,7 +47,7 @@ public class DiceGame {
                 } else {
                     System.out.println("Invalid action!");
                 }
-            System.out.println();
+
         }
 
         }
