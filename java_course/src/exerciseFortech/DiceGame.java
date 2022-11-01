@@ -32,22 +32,24 @@ public class DiceGame {
 
                     if (currentNumber == winnerNumber) {
                         System.out.print("You're on space " + currentNumber + ". Congrats, you win!");
-
+                        break;
                     } else if (currentNumber > winnerNumber) {
                         System.out.print("Unfortunately, that takes you past " + winnerNumber + " numbers. You lose!");
+                        activePlayer++;
                     } else {
                         int numbersToGo = winnerNumber - currentNumber;
                         System.out.print("You have " + numbersToGo + " more to go.");
                     }
 
                 } else if (response == 0) {
+                    System.out.println("You are on hold! Your score is: " + currentNumber + ".");
                     currentNumber = 0;
-                    activePlayer ++;
+                    activePlayer++;
 
                 } else {
                     System.out.println("Invalid action!");
                 }
-
+            System.out.println();
         }
 
         }
