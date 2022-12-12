@@ -50,6 +50,7 @@ public class DiceGame {
                     System.out.println("Invalid action!");
                 }
             System.out.println();
+            System.out.println("Game over! Thank you for playing 'Dice Game'!");
         }
 
         }
