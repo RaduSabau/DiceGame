@@ -51,6 +51,7 @@ public class DiceGame {
                 }
             System.out.println();
             System.out.println("Game over! Thank you for playing 'Dice Game'!");
+            System.out.println("Game over! Thank you for playing 'Dice Game1git'1");
         }
 
         }
